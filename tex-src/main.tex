@@ -1,0 +1,50 @@
+\mainbar{
+  \section{About this template}
+  Section are set in bold face. An optional parameter of \texttt{\textbackslash
+  section} takes a symbol to add in front of the text. This option is used in
+  the jobs and education sections below.
+
+  \section[\faGears]{Work history}
+  \job{date}
+  {Employer name and city}
+  {Position Title}
+  {Additional details for this position. Can be left empty to omit this line}
+  \job{01/2020 - 12/2020}
+  {An employer with a long name,\\City in new line}
+  {Previous position}
+  {}
+
+  \section[\faMortarBoard]{Education}
+  \job{01/2019 - 12/2019}
+  {University, City}
+  {Bachelor of Something}
+  {}
+
+  \section{Achievements, honours and awards}
+  \achievement{My first achievement}
+  \achievement{My second achievement}
+
+  \section{General Skills}
+  \smallskip
+  \tag{Tag 1}
+  \tag{Tag 2}
+  \tag{and}
+  \tag{another tag}
+  \tag{some more tags}
+  \tag{yet another one}
+  \tag{tags flow over}
+  \tag{to the next line}
+  \tag{if necessary}
+
+  \medskip
+  Tags must be ordered by hand with newlines to get a nice layout, especially for long tags.
+
+  \section{Wheel Chart}
+  \wheelchart{1.5cm}{0.5cm}{% outer and inner diameter
+    6/8em/accent!20/Sleep,          % comma-separated list of
+    8/8em/accent!40/Daytime job,    % fraction of 24 / line length / color / label
+    2/8em/accent!80/Training,          % here, the color is shades of the accent color
+    3/8em/accent!60/Recovering from fighting criminals,
+    5/8em/accent/Being Batman
+  }
+}

@@ -1,17 +1,43 @@
-\cvsection{Publications}
+\section{Publications}
+\pubforcefullwidth
 
-\nocite{*}
+Demonstrate what an \texttt{\textbackslash pagestyle\{empty\}} page looks like.
+Also show off the macros for publications that uses small icons for authors,
+date, journal and links.
 
-\printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
+Achieving a good looking spacing can be tricky. For empty pagestyles where the
+full width is available use \texttt{\textbackslash pubforcefullwidth} to force
+the publoication list to take up all the available space. The (relative)
+lengths reserved for date, journal and links can be set with the parameters
+\texttt{\textbackslash pubdatelength}, \texttt{\textbackslash pubjournallength}
+and \texttt{\textbackslash publinklength} as in \texttt{\textbackslash
+setlength\{\textbackslash pubdatelength\}\{0.15 \textbackslash linewidth\}}.
+\bigskip
 
-\divider
+\publication
+	{The turbulent gas structure in the centers of NGC~253 and the Milky Way}
+  {\textbf{N. Krieger}, A. Bolatto, E. Koch, A. Leroy, E. Rosolowsky, F.
+    Walter, A. Wei\ss, D. Eden, R. Levy, D. Meier, E. Mills, T. Moore, J. Ott, Y.
+    Su, S. Veilleux}
+	{2020}
+  {The Astrophysical Journal Vol. 899, Issue 2, id.158}
+  {\ADS{https://ui.adsabs.harvard.edu/abs/2020ApJ...899..158K},
+    \arXiv{https://arxiv.org/abs/2008.02518}}
 
-\printbibliography[heading=pubtype,title={\printinfo{\faFile*[regular]}{Journal Articles}},type=article]
+\publication
+  {The molecular ISM in the Super Star Clusters of the starburst NGC253}
+  {\textbf{N. Krieger}, A. Bolatto, A. Leroy, R. Levy, E. Mills, D. Meier, S.
+    Veilleux, F. Walter, A. Wei\ss}
+	{2020}
+  {The Astrophysical Journal Vol.897, Issue 2, id.176}
+  {\ADS{https://ui.adsabs.harvard.edu/abs/2020ApJ...897..176K},
+    \arXiv{https://arxiv.org/abs/2006.08262}}
 
-\divider
-
-\printbibliography[heading=pubtype,title={\printinfo{\faUsers}{Conference Proceedings}},type=inproceedings]
-
-%% Switch to the right column. This will now automatically move to the second
-%% page if the content is too long.
-\switchcolumn
+\publication
+	{The Molecular Outflow in NGC\,253 at a Resolution of Two Parsecs}
+  {\textbf{N. Krieger}, A. Bolatto, F. Walter, A. Leroy, L. Zschaechner, D.
+    Meier, J. Ott, A. Wei\ss, E. Mills, S. Veilleux, M. Gorski}
+	{2019}
+	{The Astrophysical Journal Vol.881, Issue 1, article id. 43, 20 pp}
+  {\ADS{https://ui.adsabs.harvard.edu/abs/2019ApJ...881...43K},
+    \arXiv{https://arxiv.org/abs/1907.00731}}
